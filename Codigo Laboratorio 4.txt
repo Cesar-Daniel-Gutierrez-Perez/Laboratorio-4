@@ -1,12 +1,3 @@
-;
-; Reloj.asm
-;
-; Created: 24/10/2022 4:59:04 p. m.
-; Author : perez
-;
-
-
-; Replace with your application code
 start:
     ldi r16, 0xff
 	ldi r17, 0x3f
@@ -196,7 +187,7 @@ ret
 DELAYM:
 	ldi r24, 82
 	DELAYM1:
-		ldi r25, 61
+		ldi r25, 62
 		DELAYM2:
 			in r26, pinc
 			cpi r26, 1
