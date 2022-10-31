@@ -187,7 +187,7 @@ ret
 DELAYM:
 	ldi r24, 82
 	DELAYM1:
-		ldi r25, 62
+		ldi r25, 61
 		DELAYM2:
 			in r26, pinc
 			cpi r26, 1
